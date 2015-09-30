@@ -14,21 +14,24 @@ class t1_lesson09_template{
      public static void main (String str[]) throws IOException {
 
        
-            Scanner scan = new Scanner (System.in);
-          
-            System.out.println("Please enter 2 ints: ");
-            int x = scan.nextInt();
-            int y = scan.nextInt();
-            
-            System.out.println("Please enter 2 doubles: ");
-            double a = scan.nextDouble();
-            double b = scan.nextDouble();
-            
-            System.out.println("Answers: ");
-            System.out.println(Math.abs(x - y));
-            System.out.println(Math.abs(a - b));
-               
-          
+        //Scanner scan = new Scanner (System.in);
+
+        //System.out.println("Please enter an int: ");
+        //int x = scan.nextInt();
+        //int y = scan.nextInt();
+
+        //System.out.println("Answer Ints: ");
+        //System.out.println(Math.sqrt(x));
+
+        //System.out.println("Please enter a double: ");
+        //double a = scan.nextDouble();
+        //double b = scan.nextDouble();
+
+        //System.out.println("Answer Doubles: ");
+        //System.out.println(Math.sqrt(a));
+
+        System.out.println((int)(Math.random() * 41) + -20);
+
           
 
      }

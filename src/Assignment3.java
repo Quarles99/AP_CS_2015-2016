@@ -15,6 +15,8 @@ class Assignment3 {
         String birthdayLong = "";
         String birthMonthString = "";
         String birthDayString = "";
+        int birthDayNumber;
+        String horoscopeSign = "";
 
         System.out.print("Birth Month #: ");
         birthMonth = scan.nextInt();
@@ -208,8 +210,48 @@ class Assignment3 {
         }
 
         birthdayLong = birthMonthString + " " + birthDayString;
+        birthDayNumber = (birthMonth * 100) + birthDay;
+
+        if(birthDayNumber > 320 && birthDayNumber < 420) {
+            horoscopeSign = "Aries";
+        }
+
+        else if(birthDayNumber > 419 && birthDayNumber <521) {
+            horoscopeSign = "Taurus";
+        }
+
+        else if(birthDayNumber > 520 && birthDayNumber <621) {
+            horoscopeSign = "Gemini";
+        }
+
+        else if(birthDayNumber > 620 && birthDayNumber <723) {
+            horoscopeSign = "Cancer";
+        }
+
+        else if(birthDayNumber > 722 && birthDayNumber < 823) {
+            horoscopeSign = "Leo";
+        }
+
+        else if(birthDayNumber > 822 && birthDayNumber < 923) {
+            horoscopeSign = "Virgo";
+        }
+
+        else if(birthDayNumber > 922 && birthDayNumber < 1023) {
+            horoscopeSign = "Libra";
+        }
+
+        else if(birthDayNumber > 1022 && birthDayNumber < 1122) {
+            horoscopeSign = "Scorpio";
+        }
+
+        else if(birthDayNumber > 1121 && birthDayNumber < 1222) {
+            horoscopeSign = "Sagittarius";
+        }
+
+        else if(birthDayNumber)
 
         System.out.println("Your birthday is " + birthdayLong);
+        System.out.println("Your horoscope is: " + horoscopeSign);
 
 
 

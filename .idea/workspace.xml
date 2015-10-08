@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4145a6b-85f2-4e52-afdb-cbe272a18736" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Assignment3.java" afterPath="$PROJECT_DIR$/src/Assignment3.java" />
-    </list>
+    <list default="true" id="e4145a6b-85f2-4e52-afdb-cbe272a18736" name="Default" comment="" />
     <ignored path="AP_CS_2015-2016.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/Assignment3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7978864">
-              <caret line="250" column="30" selection-start-line="250" selection-start-column="30" selection-end-line="250" selection-end-column="30" />
+              <caret line="250" column="31" selection-start-line="250" selection-start-column="31" selection-end-line="250" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -522,7 +520,7 @@
     <entry file="file://$PROJECT_DIR$/src/Assignment3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7978864">
-          <caret line="250" column="30" selection-start-line="250" selection-start-column="30" selection-end-line="250" selection-end-column="30" />
+          <caret line="250" column="31" selection-start-line="250" selection-start-column="31" selection-end-line="250" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -12,11 +12,12 @@ class Assignment3 {
 
         int birthMonth;
         int birthDay;
-        String birthdayLong = "";
+        String birthdayLong;
         String birthMonthString = "";
         String birthDayString = "";
         int birthDayNumber;
         String horoscopeSign = "";
+        String horoscopePrediction = "";
 
         System.out.print("Birth Month #: ");
         birthMonth = scan.nextInt();
@@ -79,6 +80,10 @@ class Assignment3 {
                     System.out.println("Invalid month number");
             }
 
+        }
+
+        else {
+            System.out.println("Invalid month number");
         }
 
         if(birthDay > 0 && birthDay < 32) {
@@ -208,50 +213,82 @@ class Assignment3 {
                     break;
             }
         }
+        else {
+            System.out.println("Error, invalid month");
+        }
 
         birthdayLong = birthMonthString + " " + birthDayString;
         birthDayNumber = (birthMonth * 100) + birthDay;
 
         if(birthDayNumber > 320 && birthDayNumber < 420) {
             horoscopeSign = "Aries";
+            horoscopePrediction = "You will meet someone who shares a similar love of mundane tasks.";
         }
 
         else if(birthDayNumber > 419 && birthDayNumber <521) {
             horoscopeSign = "Taurus";
+            horoscopePrediction = "Expect to find all the coffee you drink to be cold";
         }
 
         else if(birthDayNumber > 520 && birthDayNumber <621) {
             horoscopeSign = "Gemini";
+            horoscopePrediction = "You have a dark and mysterious past.";
         }
 
         else if(birthDayNumber > 620 && birthDayNumber <723) {
             horoscopeSign = "Cancer";
+            horoscopePrediction = "Don't travel to Australia within the next month.";
         }
 
         else if(birthDayNumber > 722 && birthDayNumber < 823) {
             horoscopeSign = "Leo";
+            horoscopePrediction = "*Insert oddly specific horoscope here*";
         }
 
         else if(birthDayNumber > 822 && birthDayNumber < 923) {
             horoscopeSign = "Virgo";
+            horoscopePrediction = "While the grey carpet certainly is more affordable, \n" +
+                    "you should listen to your husband and buy the blue one.";
         }
 
         else if(birthDayNumber > 922 && birthDayNumber < 1023) {
             horoscopeSign = "Libra";
+            horoscopePrediction = "You will reach level 124 of Candy Crush Saga tonight";
         }
 
         else if(birthDayNumber > 1022 && birthDayNumber < 1122) {
             horoscopeSign = "Scorpio";
+            horoscopePrediction = "You won't believe these 10 predictions that will leave you speechless!\n" +
+                    "All you have to do is enter your SSN below!";
         }
 
         else if(birthDayNumber > 1121 && birthDayNumber < 1222) {
             horoscopeSign = "Sagittarius";
+            horoscopePrediction = "The pen is mightier than the sword! Especially the new BIC \n" +
+                    "ballpoint pen which is available at your locol retailer for only $2.99!";
         }
 
-        else if(birthDayNumber)
+        else if((birthDayNumber > 1221 && birthDayNumber < 1232) || (birthDayNumber < 120 && birthDayNumber > 0)) {
+            horoscopeSign = "Capricorn";
+            horoscopePrediction = "I would recommend a coffee";
+        }
+
+        else if(birthDayNumber > 119 && birthDayNumber < 219) {
+            horoscopeSign = "Aquarius";
+            horoscopePrediction = "You will meet the love of your life, at a place you least expect it";
+        }
+
+        else if(birthDayNumber > 218 && birthDayNumber < 421){
+            horoscopeSign = "Pisces";
+            horoscopePrediction = "Whoever is writing these horoscopes will most likely be sacked.";
+        }
+
+        else {
+            System.out.println("Error, Invalid Birthday");
+        }
 
         System.out.println("Your birthday is " + birthdayLong);
-        System.out.println("Your horoscope is: " + horoscopeSign);
+        System.out.println("Your horoscope is: " + horoscopeSign + "\n" + horoscopePrediction);
 
 
 

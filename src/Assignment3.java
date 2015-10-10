@@ -25,7 +25,7 @@ class Assignment3 {
         System.out.print("Birth Day: ");
         birthDay = scan.nextInt();
 
-        if(birthMonth < 13 && birthMonth > 0) {
+        //if(birthMonth < 13 && birthMonth > 0) {
             switch(birthMonth) {
 
                 case 1:
@@ -77,16 +77,18 @@ class Assignment3 {
                     break;
 
                 default:
-                    System.out.println("Invalid month number");
+                    System.out.println("Error in month switch");
+                    System.exit(2);
+
             }
 
-        }
+       // }
 
-        else {
-            System.out.println("Invalid month number");
-        }
+//        else {
+//            System.out.println("Invalid month number");
+//        }
 
-        if(birthDay > 0 && birthDay < 32) {
+        //if(birthDay > 0 && birthDay < 32) {
             switch (birthDay) {
                 case 1:
                     birthDayString = "first";
@@ -211,11 +213,15 @@ class Assignment3 {
                 case 31:
                     birthDayString = "thirty-first";
                     break;
+
+                default:
+                    System.out.println("Error, in day switch");
+                    System.exit(1);
             }
-        }
-        else {
-            System.out.println("Error, invalid month");
-        }
+       // }
+       // else {
+         //   System.out.println("Error, invalid day");
+        //}
 
         birthdayLong = birthMonthString + " " + birthDayString;
         birthDayNumber = (birthMonth * 100) + birthDay;

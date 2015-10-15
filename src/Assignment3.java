@@ -1,9 +1,8 @@
 import java.io.*;
 import java.util.Scanner;
 
-//I think it is saying that the scanners are not working properly, but
-//they work fine when I run them on my computer.
-//I was wondering if you had any ideas
+//Getting runtime error on code runner on website
+//I think it may be caused by the System.exit()'s
 
 class Assignment3 {
     public static void main(String[] args) throws IOException {

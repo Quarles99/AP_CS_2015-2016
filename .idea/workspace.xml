@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4145a6b-85f2-4e52-afdb-cbe272a18736" name="Default" comment="">
+    <list default="true" id="e4145a6b-85f2-4e52-afdb-cbe272a18736" name="Default" comment="jnjnkj">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AP_CS_2015-2016/Assignment3.class" afterPath="$PROJECT_DIR$/out/production/AP_CS_2015-2016/Assignment3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -88,6 +88,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Will" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -413,6 +418,13 @@
       <option name="number" value="Default" />
       <updated>1443575964611</updated>
     </task>
+    <task id="LOCAL-00001" summary="jnjnkj">
+      <created>1445349538664</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1445349538664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -454,6 +466,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="jnjnkj" />
+    <option name="LAST_COMMIT_MESSAGE" value="jnjnkj" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

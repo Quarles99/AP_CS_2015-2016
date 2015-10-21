@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4145a6b-85f2-4e52-afdb-cbe272a18736" name="Default" comment="jnjnkj">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AP_CS_2015-2016/Assignment3.class" afterPath="$PROJECT_DIR$/out/production/AP_CS_2015-2016/Assignment3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/milliSecondsConvert.java" afterPath="$PROJECT_DIR$/src/milliSecondsConvert.java" />
     </list>
     <ignored path="AP_CS_2015-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +57,8 @@
       <file leaf-file-name="milliSecondsConvert.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/milliSecondsConvert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6388889">
-              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.7777778">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -812,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/milliSecondsConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6388889">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.7777778">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
           <folding />
         </state>
       </provider>

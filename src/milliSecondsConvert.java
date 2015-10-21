@@ -55,9 +55,9 @@ class milliSecondsConvert {
             hour = 12;
         }
 
-        dayOfTheWeek =  ((timeSinceStart % 1000000000) / 10000000);
+        dayOfTheWeek =  ((timeSinceStart % 1000000000) / 10000000) % 7;
 
-        if(dayOfTheWeek == 1) {
+        if(dayOfTheWeek == 0) {
             dayOfTheWeekString = "Sunday";
         }
 
